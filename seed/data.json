@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "userName": "kvothe",
+      "firstName": "Patrick",
+      "lastName": "Rothfuss",
+      "password": "3##Heel7sa*9-zRwT",
+      "momFavorite": "Duck Duck Go"
+    },
+    {
+      "userName": "jet-setter",
+      "firstName": "Frank",
+      "lastName": "Abignale",
+      "password": "r0u7!nG",
+      "momFavorite": "Bing"
+    }
+  ]
+}
