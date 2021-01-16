@@ -116,4 +116,16 @@ router.post('/users', [
   }
 }));
 
+// logout
+router.post('/logout', function(req, res) {
+  logout.logoutUser(req, res, function(error, data) {
+    if (error) {
+      res.json({ 'error': data.error, 'message': data.message });
+    } else {
+      res.json({ 'success': data.success, 'message': data.message });
+    }
+  });
+});
+
+
 module.exports = router;
