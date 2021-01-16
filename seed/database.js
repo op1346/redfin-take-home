@@ -7,7 +7,7 @@ class Database {
   constructor(seedData, enableLogging) {
     this.users = seedData.users;
     this.enableLogging = enableLogging;
-    this.context = new Context('fsjstd-restapi.db', enableLogging);
+    this.context = new Context('restapi-redfin.db', enableLogging);
   }
 
   log(message) {
